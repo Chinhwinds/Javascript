@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WED201c MOOC3</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="showPic">
+        <div id="review">Hover over an image below to display here.</div>
+      </div>
+      <div id="gallery">
+        <img
+          onmouseover="upDate(this)"
+          onmouseleave="unDo()"
+          src="./img/Yae.jpg"
+          alt="Yae Miko at morning" />
+        <img
+          onmouseover="upDate(this)"
+          onmouseleave="unDo()"
+          src="./img/Yae2.jpg"
+          alt="Yae Miko but beautiful" />
+        <img
+          onmouseover="upDate(this)"
+          onmouseleave="unDo()"
+          src="./img/Yoimiya.jpg"
+          alt="Yoimiya is very cute" />
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
